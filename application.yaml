@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:Mahnaz15/argocd-app-config.git # git repo 
-    targetRevision: HEAD
+    repoURL: https://github.com/Mahnaz15/argocd-app-config.git # git repo 
+    targetRevision: main
     path: dev
   destination:
     server: https://kubernetes.default.svc #endpoint of k8s API server
